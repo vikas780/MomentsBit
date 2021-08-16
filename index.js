@@ -20,40 +20,40 @@ const PORT = process.env.PORT || 3000
 
 // MAIN STRUCTURE OF MOMENTS BIT (INDEX.JS) 
 
-const views_path = path.join(__dirname, 'Views/layouts/')
+const views_path = path.join(__dirname, "Views/layouts/")
 
 // SETTING UP PIPELINE 
 app.set("view engine", "hbs")
-app.set("views",'views_path')
+app.set("views",views_path)
 
 
 // GETS
 
 // LANDING PAGE 
 app.get('/', (req, res) => {
-  res.send("index")
+  res.render("index")
 })
 
 
 // HOMEPAGE 
 app.get('/homepage',(req,res) => {
-    res.send("homepage")
+    res.render("homepage")
 })
 
 // lOGIN PAGE 
 app.get('/login',(req,res) => {
-    res.send("login")
+    res.render("login")
 })
 
 // REGISTER PAGE 
 app.get('/register',(req,res) => {
-    res.send("register")
+    res.render("register")
 })
 
 
 // PASSWORD RECOVERY PAGE 
 app.get('/passwordrecovery',(req,res) => {
-    res.send("passwordrecovery")
+    res.render("passwordrecovery")
 })
 
 
