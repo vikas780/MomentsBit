@@ -14,5 +14,13 @@
     "handlebars": "^4.7.7",
     "hbs": "^4.1.2",
     "nodemon": "^2.0.12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adarsh2908/MomentsBit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Adarsh2908/MomentsBit/issues"
+  },
+  "homepage": "https://github.com/Adarsh2908/MomentsBit#readme"
 }
